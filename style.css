@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: rgba(137, 176, 223);
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+.container {
+    width: 1000px;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.col-2 {
+    width: calc(100% / 2);
+    /* height: 700px; */
+}
+a {
+    color: #fff;
+}
+#fname, #lname, #email,#date,#company,#position,#street,#zipcode,#Place, #Country, #code, #pnumber, #terms, #info,#submit  {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding: 15px 10px;
+    font-size: 16px;
+}
+#fname, #lname, #email,#date,#company,#position {
+    border-bottom: 1px solid rgb(224, 224, 224);
+}
+.white {
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 10px 0px 0px 10px;
+}
+.white h2 {
+    color: rgb(38, 84, 157);
+    font-size: 30px;
+
+}
+.blue {
+    background-color: rgb(58, 58, 193);
+    padding: 30px 40px;
+    border-radius: 0px 10px 10px 0px;
+}
+.blue h2 {
+    color: #fff;
+    font-size: 30px;
+}
+#submit {
+    background-color: #fff;
+    border-radius: 180px;
+    margin: 20px 0px;
+    padding: 10px 20px;
+    border: 2px outset rgb(128, 127, 131);
+}
+label {
+    color: white;
+}
+.blue input[type=text] {
+    width: 100%;
+    border-bottom: 1px solid #fff;
+    background-color: rgb(58, 58, 193);
+}
+.blue input::placeholder {
+    color: #fff;
+}
+.blue input[type=number] {
+    border-bottom: 1px solid #fff;
+    background-color: rgb(58, 58, 193);
+}
+.blue select {
+    background-color: transparent;
+    color: white;
+    border-bottom: 1px solid #fff;
+}
+#Country {
+    width: 100%;
+}
+#email,#date,#company,#position {
+    width: 100%;
+}
+.gray input {
+    color: rgb(128, 127, 131);
+}
+.gg {
+    display: flex;
+    justify-content: space-between;
+}
+.accept {
+    margin-top: 20px;
+}
+.accept label {
+    font-size: 18px;
+}
+
+
+
+
+
